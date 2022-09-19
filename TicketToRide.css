@@ -1,0 +1,194 @@
+/* GLOBAL */
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: snow;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.header {
+    background-color: rgb(35,57,93, .30);
+    color: #23395D;
+    font-size: 175%;
+    font-weight: bold;
+    height: 100%;
+    margin: 4% 0% 0% 0%;
+    overflow: hidden;
+    padding: 2.5% 0% 2.5% 0%;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    grid-template-columns: auto auto auto;
+    background-color: snow;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+
+/* LOGO */
+.logoBlue {
+    color: #23395D;
+    float: left !important;
+    font-family: "product sans", sans-serif;
+    font-size: 175%;
+    font-weight: bold;
+    padding: 0.5% 0.5% 0% 0.5% !important;
+}
+
+.logoPink {
+    color: #C64B8C;
+    float: left !important;
+    font-family: "product sans", sans-serif;
+    font-size: 175%;
+    font-weight: bold;
+    padding: 0.5% 0.25% 0% 0.25% !important;
+}
+
+
+/* NAVIGATION BAR */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0px 0px 10px;
+    overflow: hidden;
+    background-color: snow;
+}
+
+nav ul li {
+    float: right;  
+}
+
+.navigation {
+    color: #23395D;
+    display: block;
+    float: right;
+    font-size: bold;
+    padding: 15px 30px 0px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation:hover {
+    color: #C64B8C;
+    text-decoration: underline;
+}
+
+
+/* HOME PAGE */
+.blueSeat {
+    background-color: #23395D;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    height: 10px;
+    margin: 7.5% 8% 0% 8%;
+    overflow: hidden;
+    padding: 15px 0px 20px 0px;
+    text-align: center;
+    width: 50px;
+}
+
+.pinkSeat {
+    background-color: #C64B8C;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    height: 10px;
+    margin: 7.5% 8% 0% 8%;
+    overflow: hidden;
+    padding: 15px 0px 20px 0px;
+    text-align: center;
+    width: 50px;
+}
+
+.blueSeat:hover {
+    opacity: 50%;
+}
+
+
+/* RESERVATIONS LIST PAGE */
+.reservationBox {
+    background-color: snow;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: #23395D;
+    display: block;
+    font-family: 'Courier New', Courier, monospace !important;
+    height: 100px;
+    margin: 7% 5% 1%;
+    overflow: hidden;
+    padding: 3% 3% 5% 3%;
+    text-align: left;
+    width: 85%;
+}
+
+.emptyReservationText {
+    font-family: 'Courier New', Courier, monospace !important;
+    margin: 10% auto;
+    text-align: center;
+}
+
+
+/* ADD CUSTOMER FORM PAGE */
+label {
+    margin: 20px 20px 20px 20px;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 12px 20px;
+    width: 500px;
+}
+
+form {
+    margin: 50px 20px 20px 20px;
+}
+
+.submitButton {
+    align-items: center;
+    background-color: #8e44ad;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    padding: 1.3rem;
+    width: 25%;
+}
+
+.submitButton:hover {
+    background-color: #732d91;
+}
+
+.submitButton:focus {
+    background-color: #5e3370;
+    outline: none;
+}
+
+.deleteButton {
+    background-color: #8e44ad;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-family: inherit;
+    font-size: 1.1rem;
+    margin: 0% 3% 10% 3%;
+    padding: 1.3rem;
+    width: 25%;
+}
